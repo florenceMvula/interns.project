@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Eziit Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eziit logo in a cycle.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="eziitConcept.html">How Eziit Can Help You</a></li>
+                    <li><a href="blog.html"> BLOG</a></li>
+                    <li><a href="login.html"> LOGIN</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>SIGN IN - SIGN UP</h1>
+
+    </section>
+<!-----Login and Sign Up------>
+<section class="Login-Sign-Up">
+      <div class="container">
+        <div class="signin-signup">
+            <form action="" class="sign-in-form">
+                <h2 class="title">Sign In</h2>
+                <div class="input-field">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="login" class="btn">
+                <p class="social-text"> <a href="">Forgot Password?</a></p>
+                <p class="social-text">or sign in with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+                
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign Up</a></p>
+            </form>
+            <form action="" class="sign-up-form">
+                <h2 class="title">Sign Up</h2>
+                <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Organisation Name">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-phone"></i>
+                    <input type="number" placeholder="Phone number">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Confirm password">
+                </div>
+                <div class="custom-select">
+                    <h4>Select Acount Type</h4>
+                    <select>
+                        <option value="">Merchant</option> 
+                        <option value="">Employer</option>
+                        <option value="">Underwriter</option>
+                        <option value="">Individual</option>
+                    </select>
+                </div>
+                <input type="submit" value="sign up" class="btn">
+                <p class="social-text">or sign up with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign In</a></p>
+            </form>
+        </div>
+        <div class="panel-container">
+            <div class="panel left-panel">
+                <div class="content_p">
+                    <h3>Member of Eziit?</h3>
+                    <p> If you have an Eziit account as an
+                         Individual, Employer,Merchant or 
+                         Underwriter.</p>
+                         <button class="btn" id="sign-in-btn">Sign In</button>
+                </div>
+                <img src="eziit logo not in a cycle.jpg" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content_p">
+                    <h3>New to Eziit?</h3>
+                    <p> If you do not yet have an Eziit account as an
+                         Individual, Employer,Merchant or 
+                         Underwriter.</p>
+                         <button class="btn" id="sign-up-btn">Sign Up</button>
+                </div>
+                <img src="eziit logo in a cycle.jpg"alt="" class="image">
+            </div>
+        </div>
+        
+    </div>
+    
+</section>
+
+
+<!-----foooter------>
+
+<section class="footer">
+    <h3>The Freedom Revolution</h3>
+    <div class="row">
+        <div class="footer-col">
+            <div>
+                <span>
+                    <h4>Usefull Links</h4>
+                </span>
+            </div>
+            <a href="index.html">Home</a><br>
+            <a href="about.html">About</a><br>
+            <a href="eziitConcept.html">How Eziit Can Help You</a><br>
+            <a href="blog.html">Blog</a><br>
+            <a href="login.html">Login</a><br>
+            <a href="Contact.html">Contact</a>
+
+        </div>
+       
+        <div class="footer-col">
+            <div>
+                <span>
+                    <h4>Key Stakeholders</h4>
+                </span>
+            </div>
+            <a href="eziitConcept.html">Individuals</a><br>
+            <a href="eziitConcept.html">Employers</a><br>
+            <a href="eziitConcept.html">Merchants</a><br>
+            <a href="eziitConcept.html">Financial Institutions</a><br>
+        </div>
+        <div class="footer-col">
+            <div>
+                <span>
+                    <h4>Important Eziit Concepts</h4>
+                </span>
+            </div>
+            <a href="eziitConcept.html">Four-tier EPPVAS Security</a><br>
+            <a href="blog.html">Product Based Zero Interest Loans</a><br>
+            <a href="blog.html">Reputation Collateral</a><br>
+            <a href="blog.html">Eziit Trust Based Communities</a><br>
+            
+        </div>
+       
+    </div>
+
+    <p>Eziit is a Trust Based community which integrates the interests of Individuals, 
+    Merchants, Employers and Financial Institutions for mutual benefit.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/search/top?q=eziit" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/eziit4u" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCQvQD_P3NLHu64MlTBoKoVQ" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/search/results/all/?keywords=eziit&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=f486b900-aaf5-4f26-b166-3c2375e0c42c&sid=1e)" target="_blank">
+            <i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Team Eziit</p>
+</section>
+
+    <!-----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+    <!------JavaScript for Sign In & Sign Up----->
+    <script src="main.js"></script>
+
+     <!------JavaScript for selecting account type----->
+
+     
+
+</body>
+
+
+</html>

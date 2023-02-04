@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        .light-mode {
+          background-color: white;
+          color: black;
+        }
+      </style>
+
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Eziit Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+    
+      }
+    </script>
+     
+    <section class="header">
+        <nav class="menu-bar">
+            <a href="index.html"><img src="eziit logo in a cycle.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">How Eziit Works &#9207;</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#HowItWorks">How Eziit works for Individuals, Employers, Merchants & Financial Institutions</a></li>
+                                <li><a href="#whatYouCanDo">What you can do with Your Individual Account</a></li>
+                            </ul>
+                        </div>
+                    
+                    </li>
+                    <li><a href="about.html">ABOUT &#9207;</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="about.html">Our Team</a></li>
+                                <li><a href="about.html">Our Story</a></li>
+                                <li><a href="about.html">Our Eziit Idea & Why it Could be important to you</a></li>
+                            </ul>
+                        </div>    
+                    
+                    </li>
+                    <li><a href="eziitConcept.html">How Eziit Can Help You &#9207;</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li class="hover-me"><a href="eziitConcept.html">Who We Can Help &#12297;</a>
+                                    <div class="sub-menu-2">
+                                        <ul>
+                                            <li><a href="eziitConcept.html">Individuals</a></li>
+                                            <li><a href="eziitConcept.html">Employers</a></li>
+                                            <li><a href="eziitConcept.html">Merchants</a></li>
+                                            <li><a href="eziitConcept.html">Financial Institutions</a></li>
+                                        </ul>
+                                    </div>
+                                
+                                </li>                   
+                                
+                                <li class="hover-me"><a href="eziitConcept.html">How We Are Able to Help &#12297;</a>
+                                    <div class="sub-menu-2">
+                                        <ul>
+                                            <li><a href="eziitConcept.html">Trust</a></li>
+                                            <li><a href="eziitConcept.html">Collaboration</a></li>
+                                            <li><a href="eziitConcept.html">Mutual Benefit</a></li>
+                                        </ul>
+                                    </div>
+                                
+                   
+                                </li>
+                                
+                                <li><a href="eziitConcept.html">What We Can Help With</a></li>
+                                <li><a href="faq.html">Frequently Asked Questions (FAQ)</a></li>
+                            </ul>
+                        </div>
+                    
+                    </li>
+
+                    <li><a href="blog.html"> BLOG</a></li>
+                    <li><a href="login.html"> LOGIN</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h2>EZIIT</h2>
+            <h3>The Freedom Revolution</h3>
+            <h5>Zero Interest Rate (0%) Short Term Loans Now a Reality</h5>
+            <h1>GOOD REPUTATION IS GOOD COLLATERAL ...</h1>
+            <p>Eziit unlocks mutual benefits embeded in short term finance by enabling <a href="eziitConcept.html" class="stakeholders">Individuals</a> to 
+            use Reputation as collateral for Zero interest (0%) 
+            short term loans, guarantees <a href="eziitConcept.html" class="stakeholders">Employers</a> 
+            increased productivity, increases sales volume/profitability for <a href="eziitConcept.html" 
+            class="stakeholders">Merchants</a> and creates new low risk income streams 
+            for <a href="eziitConcept.html" class="stakeholders">Financial Institutions</a>.</p>
+    
+            <a href="login.html" class="hero-btn">Sign Up for Free &#8594;</a>
+        
+        <div class="social">
+                        
+            <a href="https://play.google.com/store/search?q=eziit&c=apps&hl=en&gl=US" target="_blank"><img src="google-play-badge.png" width="120"></a>
+            <a href="https://play.google.com/store/search?q=eziit&c=apps&hl=en&gl=US" target="_blank"><img src="SeekPng.com_amazon-png_227594.png" width="100"></a>
+
+            <a href="https://www.facebook.com/search/top?q=eziit" class="social-icon" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/eziit4u" class="social-icon" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCQvQD_P3NLHu64MlTBoKoVQ" class="social-icon" target="_blank">
+                <i class="fa fa-youtube"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=eziit&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=f486b900-aaf5-4f26-b166-3c2375e0c42c&sid=1e)" class="social-icon" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!----The Eziit Concept (Note: Was earlier coded as courses)---->
+    <section class="body-services">
+        <div class="conatiner-services">
+        <h1><a name="whatYouCanDo"></a> What You Can Do With Your Individual Eziit Account</h1>
+        <p>Eziit unclocks benefits embeded in short term finance for  
+        <a href="eziitConcept.html" class="stakeholders">Individuals</a> and this in turn has a trickledown effect
+        which results in mutual benefits to other key stakeholders such 
+        as <a href="eziitConcept.html" class="stakeholders">Employers</a>, 
+        <a href="eziitConcept.html" class="stakeholders">Merchants</a> and 
+        <a href="eziitConcept.html" class="stakeholders">Financial institutions</a>.</p>
+            <div class="box-services">
+                <h2>01</h2>
+                <h3>Zero Interest (0%) Goods/Services Based Loans</h3>
+                <p>Instead of getting High interest rate Short term loans to 
+                sort out unforeseen financial challenges, which essentially 
+                means paying for goods/services, you can through Eziit have 
+                access to goods/services and pay back within 30 days or any agreed
+                upon period. This will make you Save as you pay exactly the amount 
+                for the goods/services gotten, nothing more, no interest to be paid.</p>
+                
+            </div>
+            <div class="box-services">
+                <h2>02</h2>
+                <h3>Point of Sale Based Transactions</h3>
+                <p>Pay for goods and services with your eziit App 
+                 at the point of sale. You can either use the employer or Merchant 
+                 approved amount (s). Just check if the shop/merchant is on your approved 
+                 merchants list and you are good to go. The employer approved amount 
+                 is paid through payroll while the merchant approved amount directly 
+                 to the merchant by the account holder subject to the agreed unpo period</p>
+                
+            </div>
+            <div class="box-services">
+                <h2>03</h2>
+                <h3>Reputaion Collateral Based Purchases</h3>
+                <p>Get access to goods/services from a merchant who knows you personally
+                 or has approved a certain amount for you based on your good reputaion with 
+                 them or other merchants. The key here is that your good reputaion acts as 
+                 collateral to trust that you will pay within the agreed upon period.</p>
+                
+            </div>
+            <div class="box-services">
+                <h2>04</h2>
+                <h3>Pay for Others</h3>
+                <p>You can create a voucher for a certain amount and send to a third party 
+                to transact in any shop or with any merchant on your approved merchant list. The third 
+                party can be anywhere in the world and the voucher will still work as long 
+                as the voucher is presented to a shop or establishment on your approved merchnat list.</p>
+                
+            </div>
+            <div class="box-services">
+                <h2>05</h2>
+                <h3>Group Purchases</h3>
+                <p>You can create a group, add or invite others with eziit accounts and 
+                contribute for a payment. This can be used to contribute towards school 
+                fees for a sibling, contibute for a family event or settle any shared 
+                expenses.</p>
+                
+            </div>
+            <div class="box-services">
+                <h2>06</h2>
+                <h3>Build Reputation Collateral</h3>
+                <p>Each time you use eziit to pay for goods/services, and pay back within 
+                the agreed upon period, a record of this is kept and translated into reputaion 
+                collateral to give you more access to other merchants who will depend on this 
+                reputation to give you access to their goods/services. Therefore, each good 
+                act on eziit gives you more liverage in the eziit trust based community. 
+                This is because high cost future payment based business transactions are usually 
+                due to the related risk management costs hence if you are a low risk, then you should 
+                not pay for high risk managements costs and benefit from your good reputation.</p>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--------Animated Tabs 1-------->
+    <section class="body-tab-1">
+        <h1><a name="HowItWorks"></a>How Eziit Works</h1>
+        <div class="tabsGroup">
+            <div class="tabs active" onclick="openTab(this, 'content_1')">1.Sign Up&#12297;</div>
+            <div class="tabs"onclick="openTab(this, 'content_2')">2.Link Account&#12297;</div>
+            <div class="tabs"onclick="openTab(this, 'content_3')">3.Approval&#12297;</div>
+            <div class="tabs"onclick="openTab(this, 'content_4')">4.Transact&#12297;</div>
+            <div class="tabs"onclick="openTab(this, 'content_5')">5.Payments</div>
+
+
+            <!-----Progress Bar-->
+           <div class="container_bar">   
+                <div class="bar">
+                  <div class="fill"></div>
+                </div>
+          
+                <div class="counter">0%</div>              
+           </div>
+        
+            <div class="output">     
+                <div class="text">Your Ezitt Journey Starts Here. Complete all stages For Clarity</div>
+                <span class="fa fa-check"></span> 
+            </div>
+        </div>
+
+        <div class="contentsGroup">
+            <div class="contents active" id="content_1">
+                <h2> 1. Sign Up For Free (Details Below)&#129147;</h2>
+                
+                <div class="row">
+                    <div class="facilities-col">
+                        <div>
+                            <span>
+                                <h4>Individual</h4>
+                            </span>
+                        </div>
+                        <p>Download the Eziit App from <a href="https://play.google.com/store/apps/details?id=com.eziit&hl=en&gl=US">Google Playstore</a> or 
+                        App Store and Sign Up for Free. <br>
+                        <br>The <b>Eziit Individual Account App</b> is the one which is just indicated <b>"Eziit"</b>  and the 
+                        other one which is indicated as <b>"Eziit Merchant"</b> is 
+                        only for Merchants to be used at point of sale.</p>
+                        <br>
+                        
+                    </div>
+                   
+                    <div class="facilities-col">
+                        <div>
+                            <span>
+                                <h4>Employer</h4>
+                            </span>
+                        </div>
+                        <p>Just go to the <a href="login.html">sign Up page</a>, 
+                        fill in the details, select <b>"Employer"</b>  on the Select Account 
+                        Type part and sign Up for free.</p>
+                        <br>
+                                              
+                    </div>
+                    <div class="facilities-col">
+                        <div>
+                            <span>
+                                <h4>Merchant</h4>
+                            </span>
+                        </div>
+                        <p>Just go to the <a href="login.html">sign Up page</a>, 
+                        fill in the details, select <b>"Merchant"</b>  on the Select Account 
+                        Type part and sign Up for free.</p>
+                        <br>
+                        
+                    </div>
+                    <div class="facilities-col">
+                        <div>
+                            <span> 
+                                <h4>Financial Institution</h4>
+                            </span>
+                        </div>
+                        <p>Just go to the <a href="login.html">sign Up page</a>, 
+                        fill in the details, select<b>"Financial Institution"</b>  on the
+                         Select Account Type part and sign Up for free.</p>
+                        <br>
+                        
+                    </div>
+            
+                </div>
+            </div>
+
+            <div class="contents" id="content_2">
+                <h2>2. Link Account (Details Below) &#129147;</h2>
+                <div class="row">
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check">
+                        <div>
+                            <span>
+                                <h4>Individual</h4>
+                            </span>
+                        </div>
+                        <p> "Linking Individual Account" refers to <b>Connecting your Individual 
+                        Eziit acount to your Employer, Merchant or both</b>using their 
+                        Eziit Employer or Merchant account holder identification codes which are given to all 
+                        Eziit account holders after opening an account and can be seen in
+                        their respective accounts after loging in.</p> <br>
+                        <div class="content">
+                            <p>This is the first step in 
+                            activating your Eziit account and enables employers or merchants to 
+                            verify your details and allocate an amount they will allow you to 
+                            spend through eziit based on your net income for the employer or 
+                            reputation for merchants.</p>
+
+                        </div>
+                        <label for="check">Read More</label>
+                        
+                    </div>
+                    
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_link_E">
+                        <div>
+                            <span>
+                                <h4>Employer</h4>
+                            </span>
+                        </div>
+                        <p>"Linking Employer Account" refers to <b>connecting your account as an Employer with 
+                        merchants or Financial Institutions (optional)</b>using their Eziit Codes. 
+                        This is basically seeking permision from a merchant for your members of 
+                        staff to access their goods/services.<br> <br>
+                        <div class="content">
+                            <p>It also servis as a commitment that you will deduct through your payroll and 
+                            settle all outstanding payments within 30days or any agreed upon period.
+                            In the case of financial institutions, if needed in order for your staff to 
+                            transact with certain merchants, it is basically asking if they could 
+                            underwrite transactions for your members of staff. <br><br> Therefore, this is the 
+                            first step in activating your Employer Eziit account and enables merchants
+                            and Financial institutions (if needed) to verify your details and agree to
+                            allow your staff access their goods/services for merchnats or underwrite 
+                            transactions for financial institutions.</p>.</p>
+
+                        </div>
+                        <label for="check_link_E">Read More</label>
+                                             
+                    </div>
+
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_link_M">
+                        <div>
+                            <span>
+                                <h4>Merchant</h4>
+                            </span>
+                        </div>
+                        <p>"Linking Merchant Account" refers to <b>connecting your Eziit Merchant account to 
+                            Employers, individual Eziit acoount holders or financial institutions </b>
+                        using their Eziit Codes found in all eziit account holders accounts.<br> 
+                        </p>
+                        
+                        <div class="content">
+                            <p>This is basically offering your goods/services 
+                            to members of staff of a respective employer to be paid for through the 
+                            payroll wihin 30 days or an agreed upon period, or individuals with a 
+                            good reputaion through past transactions with you or other trusted merchants.<br> 
+                            <br>Therefore, this is the first step in activating your Merchant Eziit account 
+                            if no requests have been sent to you by other Eziit users and enables employers 
+                            or individuals to verify your details and agree to do business with you. In the 
+                            case of financial institutions, it is asking them if the could underwrite 
+                            transactions with respective emlpoyers or individuals acccessing your goods/
+                            services through eziit.</p>
+
+                        </div>
+                        <label for="check_link_M">Read More</label>
+                        
+                        
+                    </div>
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_link_FI">
+                        <div>
+                            <span>
+                                <h4>Financial Institution</h4>
+                            </span>
+                        </div>
+                        <p>"Linking Financial Institution Account" refers to <b>connecting your Eziit Financial Institution account to 
+                            Employers, individuals with Eziit acoounts or Merchants</b>  using their Eziit Codes. 
+                        This is basically offering your services as an underwriter to Employers, individuals
+                        or Merchants. </p> <br>
+                        <div class="content">
+                            <p>Therefore, this is the first step in activating your Financial Institution
+                                Eziit account if no requests have been sent to you by other Eziit users and enables 
+                                employers, Merchants or individuals to verify your details and agree to do business with you.</p>
+
+                        </div>
+                        <label for="check_link_FI">Read More</label>
+                        
+                    </div>
+            
+                </div>
+                
+            </div>
+            <div class="contents" id="content_3">
+                <h2>3. Approval (Details Below) &#129147;</h2>
+                <div class="row">
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_approval_I">
+                        <div>
+                            <span>
+                                <h4>Individual</h4>
+                            </span>
+                        </div>
+                        <p>"Approval for individuals" basically refers to <b>Individual Eziit account activation</b> 
+                        as one can only start using the account with other users who have accepted a 
+                        connection or linking request from them.</p> <br>
+
+                        <div class="content">
+                            <p>Therefore, this is in a way accepting to conduct business with that individual 
+                            for merchants or that individual doing business through that employer for employers.<br> 
+                            <br>This is a very important stage as it enables employers or merchants to own 
+                            liability of what you do through your 
+                            account subject to what has been verified by the respective employer or merchant.<br>
+                            <br> The other approval is the <i>optional</i> request to financial intitutions to underwrite 
+                            transactions if it is a mandatory requirement to do business with certain merchant
+                            for accounts not linked to any employer </p>
+
+                        </div>
+                        <label for="check_approval_I">Read More</label>
+                        
+                    </div>
+                   
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_approval_E">
+                        <div>
+                            <span>
+                                <h4>Employer</h4>
+                            </span>
+                        </div>
+                        <p>"Approval for Employers" basically refers to <b>Employer Eziit account activation</b> 
+                        as their members of staff can only start using their accounts with merchants
+                        who have accepted a connection or request from the employer.</p>
+                        <div class="content">
+                            <br><p>Therefore, a Merchant accepting a request is in a way approving to conduct business with 
+                            respective employers' members of staff.<br>
+                            <br>This is a very important stage as it enables the employer to express their desire for their members of staff 
+                            to access goods/services from the respective merchant and the merchant to 
+                            attest to their willingness to do business with the members of staff of the
+                            requesting employer.<br>
+                            <br>The other approval is the <i>optional</i> request to financial 
+                            intitutions to underwrite transactions if it is a mandatory requirement to 
+                            do business with certain merchants</p>
+
+                        </div>
+                        <label for="check_approval_E">Read More</label>
+                                           
+                    </div>
+
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_approval_M">
+                        <div>
+                            <span>
+                                <h4>Merchant</h4>
+                            </span>
+                        </div>
+                        <p>"Approval for Merchants" basically refers to <b>merchant account activation</b>  
+                        as only members of staff for employers who have accepted a connection or request 
+                        from the merchant can do business with the respective merchant, this is if the 
+                        employer had not yet already sent a request to the merchant.</p> 
+                        <div class="content">
+                            <br><p>The other aspect could be for a merchant to send a resquest to individual account holders if they 
+                            are comfortable with the respective individuals ability to settle their 
+                            account with the merchant on time. Therefore, an employer or individual 
+                            accepting a request is in a way approving to conduct business with the respective 
+                            merchant.<br>
+                            <br>This is a very important stage as it enables the merchant to express
+                            their desire to allow members of staff for a respective employer or an individual to access their 
+                            goods/services and the employer or indidvidual to attest to their willingness to do 
+                            business with the merchant and commitment to settle their accounts within the default
+                            30 days or any agreed upon period. <br>
+                            <br>The other approval is the <i>optional</i> request to financial 
+                            intitutions to underwrite transactions if it is a mandatory requirement to do business 
+                            with certain employers or individuals</p>
+
+                        </div>
+                        <label for="check_approval_M">Read More</label>
+                        
+                    </div>
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_approval_FI">
+                        <div>
+                            <span>
+                                <h4>Financial Institution</h4>
+                            </span>
+                        </div>
+                        <p>"Approval for financial institutions" basically refers to <b>Financial Institution
+                            Eziit account activation</b> by employers, individual account holders or merchants as underwrting
+                        eziit transactions is optional for all users subject to the requirements of those 
+                        they would want to do business with.</p> 
+                        <div class="content">
+                            <br><p>Therefore, an employer, individual account holder or  Merchant accepting a 
+                            request is in a way approving to have the respective 
+                            financial institution underwrite their transactions.<br>
+                            <br>This is a very important stage as it enables the financial institution to express their desire to underwrite 
+                            tranasctions for respective employers, individual account holders or merchants 
+                            and these partys to attest to their willingness to have the aforementioned done
+                            for them by the financial institution.</p>
+
+                        </div>
+                        <label for="check_approval_FI">Read More</label>
+                        
+                    </div>
+            
+                </div>
+                
+            </div>
+            <div class="contents" id="content_4">
+                <h2>4. Transact (Details Below) &#129147;</h2>
+                <div class="row">
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_transact_I">
+                        <div>
+                            <span>
+                                <h4>Individual</h4>
+                            </span>
+                        </div>
+                        <p>"<i>Transaction with the individual account</i>" will include:<br> 
+                        <br>1. Pont of Sale payments through the Employer linked account,<br> 
+                        <br>2. Point of Sale Payments through the Merchant linked acocount,<br></p>
+                        <div class="content">
+                            <br>3. Paying for Others (Sending Vouchers which others can use), and <br>
+                            <br><p> 4. Making Group payments (Contribution for shared expenses) <br>
+                            <br>5. Sending account linking/connecting requests to employer or directly to 
+                            merchant or Financial Institution,<br>
+                            <br>6. Rating other users to contribute to their Eziit community reputaion collateral<br></p>
+
+                        </div>
+                        <label for="check_transact_I">Read More</label>
+                        
+                    </div>
+                   
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_transact_E">
+                        <div>
+                            <span>
+                                <h4>Employer</h4>
+                            </span>
+                        </div>
+                        <p><i>"Transaction with the Employer account" </i>will include:<br> 
+                        <br>1. Approving members of staff requests to link their account with the employer,<br> 
+                        <br>2. Send connection requests to Merchants and/or financial institutions,<br>
+                        
+                        </p>
+                        <div class="content">
+                            <br><p>3. Accepting connection requests from Merchants or Financial Institutions<br>
+                            <br>4. Cancelling links for members of staff or connections with merchants and/or financial institutions<br>
+                            <br>5. Rating other users connected with the respective employer and influence their reputation collateral<br>
+                            <br>6. Make payments  for goods and services accessed by members of staff during the due period.</p>
+
+                        </div>
+                        <label for="check_transact_E">Read More</label>
+                                              
+                    </div>
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_transact_M">
+                        <div>
+                            <span>
+                                <h4>Merchant</h4>
+                            </span>
+                        </div>
+                        <p><i>"Transaction" with the Merchant"</i> account will include:<br> 
+                        <br>1. Download for free and be able to use the <b>Eziit Merchant app</b> for point of sale transactions <br>
+                        </p>
+                        <div class="content">
+                            <br><p>2. Approving members of staff requests to link their account with the merchant,<br> 
+                            <br>3. Send connection requests to employers, individuals and/or financial institutions,<br>
+                            <br>4. Accepting connection requests from employers, individuals and/or Financial Institutions<br>
+                            <br>5. Cancelling links for individuals, connections with employers and/or financial institutions<br>
+                            <br>6. Rating other users connected with the respective merchant and influence their reputation collateral<br>
+                            <br>7. Recieve payments  for goods/services accessed by individuals from individuals 
+                            (for accounts approve by merchant) and employers for accounts linked to employers during the due period.</p>
+
+                        </div>
+                        <label for="check_transact_M">Read More</label>
+                        
+                    </div>
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_transact_FI">
+                        <div>
+                            <span>
+                                <h4>Financial Institution</h4>
+                            </span>
+                        </div>
+                        
+                        <p><i>"Transaction with the Financial Institution"</i> account will include:<br> 
+                        <br>1. Approving connection requests from employers, merchants or individuals to 
+                        have their transactions underwritten,<br> 
+                        </p>
+
+                        <div class="content">
+                           <br> <p>2. Send connection requests to employers, individuals and/or merchants,<br>
+                            <br>3. Accepting connection requests from employers, individuals and/or merchants<br>
+                            <br>5. Cancelling links for individuals, connections with employers and/or merchants<br>
+                            <br>7. Rating other users connected with the respective financial institution and 
+                            influence their reputation collateral<br>
+                            <br>8. Recieve payments from Eziit (the underwriting cost is embeded in the Transaction 
+                            cost) for transactions underwritten for individuals from individuals accounts 
+                            (for accounts approve by merchant) and employers for accounts linked to employers during the due period.</p>
+
+                        </div>
+                        <label for="check_transact_FI">Read More</label>
+                                
+        
+                    </div>
+            
+                </div>
+                
+            </div> 
+
+            <div class="contents" id="content_5">
+                <h2>5. Payments (Details Below) &#129147;</h2>
+                <div class="row">
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_payments_I">
+                        <div>
+                            <span>
+                                <h4>Individual</h4>
+                            </span>
+                        </div>
+                        <p>"<b>Payments with the individual account</b>" will include:<br> 
+                        <br>1. Payment through employer payroll for Employer linked accounts ,<br> 
+                        <br>2. Direct payments to Merchants for Merchant approved accounts,<br></p>
+                        <div class="content">
+                            <br><b>Other Payments</b><br>
+                            <br><p> 1. Transanction fee of <b>ZMK10.00 or USD $1.00</b> (International Users),<br>
+                            <br>2. Applicable fees for using other platforms like mobile money, Visa, Internet Banking fees, Bank money tranfer fees, etc for Merchant approved accounts,<br>  
+                            <br>2. Applicable fees for currency conversion for International Transactions,<br>
+                            <br> <b>Note:</b> All other payments shall appear in real time on the statement in the Users account.<br></p>
+    
+                        </div>
+                        <label for="check_payments_I">Read More</label>
+                        
+                    </div>
+                   
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_payments_E">
+                        <div>
+                            <span>
+                                <h4>Employer</h4>
+                            </span>
+                        </div>
+                        <p><b>Payments with the Employer account </b>will include:<br> 
+                        <br>1. Making payroll based payments to Merchants for all due transactions for Members of staff,<br> 
+                        <br>2. Making Payroll based payments to Eziit or Financial Institutions who underwrote your members of staff transactions,<br>
+                        
+                        </p>
+                        <div class="content">
+                            <br><b>Other Payments</b><br>
+                            <br><p> 1. Transanction fee of <b>ZMK00.00 or USD $0.00</b> (International Users),<br>
+                            <br>2. Applicable fees for using other platforms like mobile money, Visa, Internet Banking Fess, Bank Transfer fees, etc for Merchant approved accounts,<br>  
+                            <br>3. Applicable fees for currency conversion for International Transactions,<br>
+                            <br> <b>Note:</b> All other payments shall appear in real time on the statement in the Users account.<br></p>
+                        </div>
+                        <label for="check_payments_E">Read More</label>
+                                              
+                    </div>
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_payments_M">
+                        <div>
+                            <span>
+                                <h4>Merchant</h4>
+                            </span>
+                        </div>
+                        <p>"<b>Payments with the Merchant</b>" account will include:<br> 
+                        <br>1. Receiving payments from Employers for all due amounts for their members of staff,<br>
+                        <br>2. Receiving payments from Individuals for those with accounts approved by the respective Merchant,<br>
+                        </p>
+                        <div class="content">
+                            <p><br>3. Making payments (optional) to Eziit or Financial Institutions who underwrote transactions 
+                            if Merchant requested for the Underwriting service,<br>
+                            <br><b>Other Payments</b><br>
+                            <br> 1. Transanction fee of <b>ZMK00.00 or USD $0.00</b> (International Users),<br>
+                            <br>2. Applicable fees for using other platforms like mobile money, Visa, Internet Banking Fess, Bank Transfer fees, etc for Merchant approved accounts,<br>  
+                            <br>3. Applicable fees for currency conversion for International Transactions,<br>
+                            <br> <b>Note:</b> All other applicable payment cost (if applicable) shall appear in real
+                             time on the statement in the Users account.<br></p>
+    
+                        </div>
+                        <label for="check_payments_M">Read More</label>
+                        
+                    </div>
+                    <div class="facilities-col">
+                        <input type="checkbox" id="check_payments_FI">
+                        <div>
+                            <span>
+                                <h4>Financial Institution</h4>
+                            </span>
+                        </div>
+                        
+                        <p><b>"Payments with the Financial Institution"</b> account will include:<br> 
+                        <br>1. Receiving payments from Employers or Eziit for all transactions underwriten for respective Employer linked accounts,<br>
+                        <br>2. Receiving payments from Merchants for those with accounts approved by the respective Merchant,<br>
+                        </p>
+    
+                        <div class="content">
+                            <br><b>Other Payments</b><br>
+                            <br><p> 1. Transanction fee of <b>ZMK00.00 or USD $0.00</b> (International Users),<br>
+                            <br>2. Applicable fees for using other platforms like mobile money, Visa, Internet Banking Fess, Bank Transfer fees, etc for Merchant approved accounts,<br>  
+                            <br>3. Applicable fees for currency conversion for International Transactions,<br>
+                            <br> <b>Note:</b> All other applicable payment cost (if applicable) shall appear in real
+                            time on the statement in the Users account.<br></p>
+                        </div>
+                        <label for="check_payments_FI">Read More</label>
+                                
+        
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </section>
+
+<!-----Testimonials------>
+
+<section class="testimonial">
+    <div class="contanier_test">
+        <h3 name="testM">What Eziit Users Say</h3>
+        <h5>Get it for yourself from our Esteemed Eziit Users</h5>
+        <div class="card">
+            <img src="img/0.jpg" width="150" id="customer-img" class="img-card">
+            <h4 id="customer-name">Jessica - Individual Account Holder</h4>
+            <div class="testimonial-review">
+                <span class="star">
+                    <i class="fa fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fa fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fa fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fa fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fa fa-star"></i>
+                </span>
+            </div>
+            <p id="customer-text">Eziit is truly a financial freedom revolutionary product, 
+                it made me feel empowered. I always felt there should be a better way and 
+                Eziit proved to be that better way, I pay back exactly what I got and I 
+                benefit from paying back through an increase in my reputation collateral, 
+                this delighted me alot.</p>
+             <a href="#testM" class="btn_3 prevBtn"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+             <a href="#testM" class="btn_3 nextBtn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+
+        </div>
+    </div>
+</section>
+
+<!------Call To Action (cta)----->
+
+<section class="cta">
+    <h1>Sign Up To Join Our Community
+    From Anywhere In The World</h1>
+   <a href="login.html" class="hero-btn">Get Started &#8594;</a>
+
+</section>
+
+<!------Footer----->
+
+<section class="footer">
+    <h3>The Freedom Revolution</h3>
+    <div class="row">
+        <div class="footer-col">
+            <div>
+                <span>
+                    <h4>Usefull Links</h4>
+                </span>
+            </div>
+            <a href="index.html">Home</a><br>
+            <a href="about.html">About</a><br>
+            <a href="eziitConcept.html">How Eziit Can Help You</a><br>
+            <a href="blog.html">Blog</a><br>
+            <a href="login.html">Login</a><br>
+            <a href="Contact.html">Contact</a>
+
+        </div>
+       
+        <div class="footer-col">
+            <div>
+                <span>
+                    <h4>Key Stakeholders</h4>
+                </span>
+            </div>
+            <a href="eziitConcept.html">Individuals</a><br>
+            <a href="eziitConcept.html">Employers</a><br>
+            <a href="eziitConcept.html">Merchants</a><br>
+            <a href="eziitConcept.html">Financial Institutions</a><br>
+        </div>
+        <div class="footer-col">
+            <div>
+                <span>
+                    <h4>Important Eziit Concepts</h4>
+                </span>
+            </div>
+            <a href="eziitConcept.html">Four-tier EPPVAS Security</a><br>
+            <a href="blog.html">Product Based Zero Interest Loans</a><br>
+            <a href="blog.html">Reputation Collateral</a><br>
+            <a href="blog.html">Eziit Trust Based Communities</a><br>
+            
+        </div>
+       
+    </div>
+
+    <p>Eziit is a Trust Based community which integrates the interests of Individuals, 
+    Merchants, Employers and Financial Institutions for mutual benefit.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/search/top?q=eziit" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/eziit4u" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCQvQD_P3NLHu64MlTBoKoVQ" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/search/results/all/?keywords=eziit&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=f486b900-aaf5-4f26-b166-3c2375e0c42c&sid=1e)" target="_blank">
+            <i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Team Eziit</p>
+</section>
+
+    <!-----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+     <!-------- javaScript for Animated Tabs 1 -------->
+ 
+     <script type="text/javascript">
+        function openTab(currentTab, currentContent){
+            let allTabs = document.getElementsByClassName("tabs");
+            let allContents = document.getElementsByClassName("contents");
+            var currentContent = document.getElementById(currentContent);
+
+            for(let i = 0; i < allTabs.length; i++){
+                allTabs[i].classList.remove('active');
+                allContents[i].classList.remove('active');
+            }
+            currentTab.classList.add('active');
+            currentContent.classList.add('active');
+        }
+    </script>
+
+    <!-------Progress Bar Javascript------>
+
+   <script type="text/javascript">
+    let container_bar = document.querySelector(".container_bar");
+    let output = document.querySelector(".output");
+    let fill = document.querySelector(".fill");
+    let Click = document.querySelector(".tabs");
+
+    Click.addEventListener('click',()=>{
+        var a = 0;
+        var run = setInterval(frames,50);
+        function frames(){
+            a = a+1;
+            if(a == 101){
+                clearInterval(run);
+                container_bar.style.display = "none";
+                output.style.display = "block";
+            }
+            else{
+                var counter = document.querySelector(".counter");
+                counter.textContent = a + "%";
+                fill.style.width = a + "%";
+            }
+        }
+    })
+
+   </script>
+
+<script src="app.js"></script>
+</body>
+
+
+</html>
